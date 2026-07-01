@@ -136,6 +136,24 @@ nav.main a:hover{opacity:1}nav.main a:hover::after{width:100%}
 .about-cols .etym b{font-weight:600}
 .about-cols .etym .serif{font-size:1.25em;color:var(--silver)}
 
+/* ---------- Message (代表挨拶) ---------- */
+.msg-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(40px,7vw,100px);align-items:start}
+@media(max-width:900px){.msg-grid{grid-template-columns:1fr;gap:36px}}
+.msg-left{position:sticky;top:120px}
+@media(max-width:900px){.msg-left{position:static;top:auto}}
+.msg-quote{margin-top:24px;font-family:var(--f-jp);font-weight:900;font-size:clamp(30px,4.4vw,58px);line-height:1.3;letter-spacing:-.02em}
+.msg-sign{margin-top:40px;display:flex;flex-direction:column;gap:6px;padding-top:24px;border-top:1px solid var(--line-c)}
+.msg-role{font-family:var(--f-disp);font-size:12px;letter-spacing:.14em;color:var(--mute)}
+.msg-name{font-family:var(--f-jp);font-weight:700;font-size:20px}
+.msg-name em{font-family:var(--f-disp);font-style:normal;font-weight:400;font-size:12px;letter-spacing:.14em;color:var(--mute);margin-left:8px}
+.msg-body p{color:var(--mute-c);font-size:15px;line-height:2.05}.msg-body p+p{margin-top:22px}
+.msg-list{list-style:none;margin:26px 0;display:flex;flex-direction:column;gap:12px}
+.msg-list li{display:flex;align-items:baseline;gap:16px;font-family:var(--f-jp);font-size:16px;color:var(--fg);padding:14px 0;border-bottom:1px solid var(--line-c)}
+.msg-list li span{font-family:var(--f-disp);font-size:12px;letter-spacing:.16em;color:var(--azure)}
+.msg-list li b{font-weight:700}
+.msg-etym{position:relative;margin:26px 0;padding:20px 24px;border-left:2px solid var(--azure);background:var(--panel);border-radius:0 10px 10px 0;font-size:14.5px!important;line-height:1.95!important}
+.msg-etym b{color:var(--fg);font-weight:700}
+
 /* ---------- Business (editorial index list) ---------- */
 .biz-list{border-top:1px solid var(--line-c)}
 .biz-row{position:relative;display:grid;grid-template-columns:64px 1.1fr 1.4fr;gap:24px;align-items:start;padding:clamp(30px,4vw,46px) 0;border-bottom:1px solid var(--line-c);transition:padding-left .5s var(--ease)}
