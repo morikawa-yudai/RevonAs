@@ -1,0 +1,7 @@
+feat: RevonAs corporate site — concept A (Luxury × Brand)
+
+- Single-page site: TOP/ABOUT/BUSINESS/STRENGTH/FLOW/RECRUIT/COMPANY/CONTACT
+- GSAP + ScrollTrigger + Lenis + SplitType, graceful fallbacks, reduced-motion
+- Ambient tech background + section gimmicks (scroll illumination, spotlight, tilt, progress)
+- Real logo assets; R-mark used on TOP only
+- Vercel static config, README with WordPress theme roadmap
