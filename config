@@ -1,8 +1,6 @@
 [core]
 	repositoryformatversion = 0
-	filemode = true
+	filemode = false
 	bare = false
 	logallrefupdates = true
-[user]
-	email = dev@revonas.example.com
-	name = RevonAs Dev
+	symlinks = false

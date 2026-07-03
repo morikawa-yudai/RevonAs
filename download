@@ -1,14 +1,3 @@
-# OS
 .DS_Store
-Thumbs.db
-# Editors
-.vscode/
-.idea/
-# Node / build
 node_modules/
-dist/
-# Vercel
 .vercel
-# Env
-.env
-.env.*
